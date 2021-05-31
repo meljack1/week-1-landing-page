@@ -3,26 +3,48 @@
 <html>
     <head>
         <title>Landing Page</title>
-        <link rel="stylesheet"  href=".assets/style.css">
+        <link rel="stylesheet" href=".\assets\style.css">
     </head>
 
     <body>
         <header>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <nav class="inherit">
+                <ul class="inherit">
+                    <li class="nav inherit"><a href="https://github.com/meljack1">Github</a></li>
+                    <li class="nav"><a href="#">Portfolio</a></li>
+                    <li class="nav"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
-
-        </main>
-        <section id="contact">
+            <h1>My Landing Page</h1>
+            <figure>
+                <img id="image" src="https://live.staticflickr.com/109/253914821_370c14881d_b.jpg" alt="Close-up picture of a keyboard"/>
+                <figcaption>Use your keyboard to type in your details below!</figcaption>
+            </figure>
             
-        </section>
-        <footer>
+        </main>
 
+        <section id="contact">
+            <h2> Contact </h2>
+            <form id="form" class="inherit" action="#">
+                <fieldset class="inherit">
+                    <label for="name" class="inherit">Name:</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name" required />
+                </fieldset>
+                <fieldset class="inherit">
+                    <label for="email" class="inherit">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email address" required />
+                </fieldset>
+                <fieldset class="inherit">
+                    <input id="submit" type="submit" class="vb-button" value="Get Started" />
+                </fieldset>
+            </form>
+          </section>
+        <footer>
+            <p class="inherit">Website created by Mel Jack</p>
         </footer>
     </body>
 
 </html>
+

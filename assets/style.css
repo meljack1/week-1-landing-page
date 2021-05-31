@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    color: #5D2A42;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background: linear-gradient(45deg, #FB6376, #FCB1A6);
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+main {
+    margin-top: 90px;
+    background-color: #FFF9EC;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    line-height: 42px;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 75px;
+    background: linear-gradient(45deg, #FCB1A6, #FB6376);
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    background-color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+    font-size: 32px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav {
+    display: inline;
+    margin-right: 50px;
+    background-color: inherit;
+}
+
+
+.inherit {
+    background-color: inherit;
+}
+
+#image {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+#contact {
+    background-color: #FFDCCC;
+    border-top: solid 5px #FCB1A6;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+#name, #email {
+    width: 500px;
+}
+
+#submit {
+    background-color: #FB6376;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#submit:hover {
+    background-color: #5D2A42;
+    cursor: pointer;
+}
